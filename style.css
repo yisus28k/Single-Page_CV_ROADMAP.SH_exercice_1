@@ -1,7 +1,7 @@
 body {
     font-family: 'Roboto', sans-serif;
     background-color: #f4f4f4;
-    margin: 0 30% 0 6%;
+    margin: 0 30% 3% 6%;
     padding: 0;
 }
 
@@ -34,4 +34,10 @@ h3{
 .name{
     color: #206BC4;
     font-weight: bold;
+}
+
+/* Colocar los dos links uno encima de otro */
+.redes a {
+    display: block;
+    margin-bottom: 10px;
 }
